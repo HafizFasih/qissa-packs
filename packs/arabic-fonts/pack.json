@@ -1,0 +1,52 @@
+{
+ "format": 1,
+ "id": "arabic-fonts",
+ "name": "Arabic fonts",
+ "version": "1.0.0",
+ "author": "Font authors (see licenses/); packed by Qissa Studio",
+ "category": "fonts",
+ "license": "SIL Open Font License 1.1 (see licenses/)",
+ "description": "Arabic and English display fonts: Amiri (classic naskh), Reem Kufi (kufi), Aref Ruqaa (ruq'ah calligraphy), Lalezar (bold display) and Scheherazade New (clear naskh). Free to use in any reel, including for money.",
+ "fonts": [
+  {
+   "id": "amiri",
+   "file": "fonts/amiri-regular.ttf",
+   "weight": 400
+  },
+  {
+   "id": "amiri-bold",
+   "file": "fonts/amiri-bold.ttf",
+   "weight": 700
+  },
+  {
+   "id": "reem-kufi",
+   "file": "fonts/reem-kufi.ttf",
+   "weight": 400
+  },
+  {
+   "id": "aref-ruqaa",
+   "file": "fonts/aref-ruqaa-regular.ttf",
+   "weight": 400
+  },
+  {
+   "id": "aref-ruqaa-bold",
+   "file": "fonts/aref-ruqaa-bold.ttf",
+   "weight": 700
+  },
+  {
+   "id": "lalezar",
+   "file": "fonts/lalezar.ttf",
+   "weight": 400
+  },
+  {
+   "id": "scheherazade",
+   "file": "fonts/scheherazade-regular.ttf",
+   "weight": 400
+  },
+  {
+   "id": "scheherazade-bold",
+   "file": "fonts/scheherazade-bold.ttf",
+   "weight": 700
+  }
+ ]
+}

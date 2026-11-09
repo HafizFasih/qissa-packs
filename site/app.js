@@ -7,6 +7,7 @@ const CATEGORIES = [
   ['faith', 'Faith'],
   ['animations', 'Animations'],
   ['scenes', 'Scenes'],
+  ['styles', 'Styles'],
   ['sounds', 'Sounds'],
   ['backgrounds', 'Backgrounds'],
   ['fonts', 'Fonts'],
@@ -26,6 +27,7 @@ function what(c) {
   const parts = [];
   const add = (n, one, many) => n && parts.push(`${n} ${n === 1 ? one : many}`);
   add(c.stories ?? 0, 'story template', 'story templates');
+  add(c.styles ?? 0, 'style', 'styles');
   add(c.people ?? 0, 'person', 'people');
   add(c.props, 'item', 'items');
   add(c.backgrounds, 'background', 'backgrounds');

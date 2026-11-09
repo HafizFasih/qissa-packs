@@ -1,0 +1,99 @@
+{
+ "format": 1,
+ "id": "reel-styles",
+ "name": "Reel styles",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "styles",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Five looks for a whole reel in one click: classic naskh, modern kufi, ruq'ah calligraphy, bold poster and quiet reminder. Each sets the text style, the font and colours of every text, and the watermark colour. Uses the Arabic fonts pack.",
+ "requires": [
+  "arabic-fonts"
+ ],
+ "styles": [
+  {
+   "id": "classic-naskh",
+   "name": "Classic naskh",
+   "description": "Warm and traditional: Amiri text, gold highlights, night to sunrise.",
+   "text_style": {
+    "font": "cormorant",
+    "case": "normal",
+    "size": "medium",
+    "position": "top",
+    "highlight_color": "#e3b25a"
+   },
+   "mood_arc": "night_to_sunrise",
+   "canvas_font": "arabic-fonts/amiri-bold",
+   "canvas_color": "#f6efe2",
+   "canvas_emphasis": "#e3b25a",
+   "watermark_color": "#e3b25a"
+  },
+  {
+   "id": "modern-kufi",
+   "name": "Modern kufi",
+   "description": "Clean and bold: Reem Kufi text, mint highlights.",
+   "text_style": {
+    "font": "cormorant",
+    "case": "upper",
+    "size": "medium",
+    "position": "top",
+    "highlight_color": "#7fd1b9"
+   },
+   "canvas_font": "arabic-fonts/reem-kufi",
+   "canvas_color": "#ffffff",
+   "canvas_emphasis": "#7fd1b9",
+   "watermark_color": "#7fd1b9",
+   "mood_arc": "dawn_hope"
+  },
+  {
+   "id": "ruqah-calligraphy",
+   "name": "Ruq'ah calligraphy",
+   "description": "Handwritten feel: Aref Ruqaa text, rose highlights.",
+   "text_style": {
+    "font": "lora_italic",
+    "case": "normal",
+    "size": "large",
+    "position": "center",
+    "highlight_color": "#e8a0a0"
+   },
+   "canvas_font": "arabic-fonts/aref-ruqaa-bold",
+   "canvas_color": "#fbf3ea",
+   "canvas_emphasis": "#e8a0a0",
+   "watermark_color": "#e8a0a0"
+  },
+  {
+   "id": "bold-poster",
+   "name": "Bold poster",
+   "description": "Loud and short: Lalezar text, big words, yellow highlights.",
+   "text_style": {
+    "font": "cormorant",
+    "case": "upper",
+    "size": "large",
+    "position": "center",
+    "highlight_color": "#ffd23f"
+   },
+   "canvas_font": "arabic-fonts/lalezar",
+   "canvas_color": "#ffffff",
+   "canvas_emphasis": "#ffd23f",
+   "watermark_color": "#ffd23f",
+   "mood_arc": "deep_night"
+  },
+  {
+   "id": "quiet-reminder",
+   "name": "Quiet reminder",
+   "description": "Soft and calm: Scheherazade text, small and low, pale blue highlights.",
+   "text_style": {
+    "font": "cormorant",
+    "case": "normal",
+    "size": "small",
+    "position": "bottom",
+    "highlight_color": "#a9c8e8"
+   },
+   "mood_arc": "dusk_calm",
+   "canvas_font": "arabic-fonts/scheherazade",
+   "canvas_color": "#eef3f8",
+   "canvas_emphasis": "#a9c8e8",
+   "watermark_color": "#a9c8e8"
+  }
+ ]
+}

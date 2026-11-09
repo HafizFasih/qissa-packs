@@ -1,0 +1,14 @@
+Arabic fonts (Qissa Studio Packs)
+
+Every font in this pack is licensed under the SIL Open Font License, Version 1.1. The full licence of each
+font, with its copyright notice, is in the licenses/ folder:
+
+  Amiri ................ licenses/OFL-amiri.txt            (The Amiri Project Authors)
+  Reem Kufi ............ licenses/OFL-reemkufi.txt         (The Reem Kufi Project Authors)
+  Aref Ruqaa ........... licenses/OFL-arefruqaa.txt        (The Aref Ruqaa Project Authors)
+  Lalezar .............. licenses/OFL-lalezar.txt          (The Lalezar Project Authors)
+  Scheherazade New ..... licenses/OFL-scheherazadenew.txt  (SIL Global)
+
+The fonts are unchanged copies from https://github.com/google/fonts (folder ofl/). You may use them in your
+reels for any purpose, including commercial work. The fonts may be shared with this licence, but may not be
+sold on their own.
