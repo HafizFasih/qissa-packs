@@ -1,0 +1,77 @@
+{
+ "format": 1,
+ "id": "nature-home-sounds",
+ "name": "Nature & home sounds",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "sounds",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Heavy rain, birds, a stream, crickets, a sizzling pan and a boiling kettle for the background, plus walking footsteps, a door knock, applause, coins, horse hooves, a phone and typing. Made from scratch for Qissa Studio; no music.",
+ "sounds": [
+  {
+   "id": "applause",
+   "file": "sounds/applause.mp3",
+   "description": "Applause from a small crowd"
+  },
+  {
+   "id": "birds",
+   "file": "sounds/birds.ogg",
+   "description": "Birds singing in the morning (loops)"
+  },
+  {
+   "id": "coins",
+   "file": "sounds/coins.mp3",
+   "description": "Coins dropping (e.g. into a charity box)"
+  },
+  {
+   "id": "crickets",
+   "file": "sounds/crickets.ogg",
+   "description": "Crickets at night (loops)"
+  },
+  {
+   "id": "door-knock",
+   "file": "sounds/door-knock.mp3",
+   "description": "Three knocks on a door"
+  },
+  {
+   "id": "footsteps",
+   "file": "sounds/footsteps.mp3",
+   "description": "Eight walking footsteps"
+  },
+  {
+   "id": "heavy-rain",
+   "file": "sounds/heavy-rain.ogg",
+   "description": "Heavy rain (loops; the app also has gentle rain)"
+  },
+  {
+   "id": "hooves",
+   "file": "sounds/hooves.mp3",
+   "description": "A horse trotting"
+  },
+  {
+   "id": "kettle-boil",
+   "file": "sounds/kettle-boil.ogg",
+   "description": "A kettle coming to the boil (loops)"
+  },
+  {
+   "id": "phone-ring",
+   "file": "sounds/phone-ring.mp3",
+   "description": "A phone ringing twice"
+  },
+  {
+   "id": "sizzle",
+   "file": "sounds/sizzle.ogg",
+   "description": "Food sizzling in a pan (loops)"
+  },
+  {
+   "id": "stream",
+   "file": "sounds/stream.ogg",
+   "description": "A small stream of running water (loops)"
+  },
+  {
+   "id": "typing",
+   "file": "sounds/typing.mp3",
+   "description": "Typing on a keyboard"
+  }
+ ]
+}

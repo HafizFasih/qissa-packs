@@ -1,0 +1,371 @@
+{
+ "format": 1,
+ "id": "daily-moves",
+ "name": "Daily moves",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "animations",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Everyday work for any figure: stirring a pot, sweeping, digging, writing, washing hands, planting a seed and reciting the Quran.",
+ "poses": [
+  {
+   "id": "stir-a",
+   "lean": 10,
+   "head": 24,
+   "arm_front": [
+    48,
+    50
+   ],
+   "arm_back": [
+    38,
+    70
+   ],
+   "description": "Stirring a pot (hand forward)"
+  },
+  {
+   "id": "stir-b",
+   "lean": 10,
+   "head": 24,
+   "arm_front": [
+    30,
+    70
+   ],
+   "arm_back": [
+    38,
+    70
+   ],
+   "description": "Stirring a pot (hand back)"
+  },
+  {
+   "id": "sweep-a",
+   "lean": 20,
+   "head": 16,
+   "arm_front": [
+    22,
+    8
+   ],
+   "arm_back": [
+    8,
+    14
+   ],
+   "description": "Sweeping (arms back)"
+  },
+  {
+   "id": "sweep-b",
+   "lean": 20,
+   "head": 16,
+   "arm_front": [
+    52,
+    8
+   ],
+   "arm_back": [
+    36,
+    12
+   ],
+   "description": "Sweeping (arms forward)"
+  },
+  {
+   "id": "dig-down",
+   "lean": 26,
+   "head": 20,
+   "hip": 42,
+   "arm_front": [
+    42,
+    8
+   ],
+   "arm_back": [
+    30,
+    10
+   ],
+   "leg_front": [
+    14,
+    -6
+   ],
+   "leg_back": [
+    -8,
+    0
+   ],
+   "description": "Digging (spade in the ground)"
+  },
+  {
+   "id": "dig-up",
+   "lean": 4,
+   "head": 0,
+   "arm_front": [
+    104,
+    30
+   ],
+   "arm_back": [
+    92,
+    36
+   ],
+   "description": "Digging (spade lifted)"
+  },
+  {
+   "id": "write-a",
+   "lean": 14,
+   "head": 26,
+   "hip": 25,
+   "hip_x": -4,
+   "arm_front": [
+    52,
+    58
+   ],
+   "arm_back": [
+    44,
+    70
+   ],
+   "leg_front": [
+    90,
+    -90
+   ],
+   "leg_back": [
+    84,
+    -84
+   ],
+   "dress": "sit",
+   "description": "Sitting, writing (pen left)"
+  },
+  {
+   "id": "write-b",
+   "lean": 14,
+   "head": 26,
+   "hip": 25,
+   "hip_x": -4,
+   "arm_front": [
+    60,
+    46
+   ],
+   "arm_back": [
+    44,
+    70
+   ],
+   "leg_front": [
+    90,
+    -90
+   ],
+   "leg_back": [
+    84,
+    -84
+   ],
+   "dress": "sit",
+   "description": "Sitting, writing (pen right)"
+  },
+  {
+   "id": "wash-a",
+   "lean": 12,
+   "head": 22,
+   "arm_front": [
+    44,
+    40
+   ],
+   "arm_back": [
+    40,
+    46
+   ],
+   "description": "Washing hands (together)"
+  },
+  {
+   "id": "wash-b",
+   "lean": 12,
+   "head": 22,
+   "arm_front": [
+    52,
+    30
+   ],
+   "arm_back": [
+    34,
+    56
+   ],
+   "description": "Washing hands (rubbing)"
+  },
+  {
+   "id": "plant",
+   "lean": 34,
+   "head": 30,
+   "hip": 24,
+   "arm_front": [
+    60,
+    6
+   ],
+   "arm_back": [
+    40,
+    20
+   ],
+   "leg_front": [
+    0,
+    -90
+   ],
+   "leg_back": [
+    -4,
+    -88
+   ],
+   "dress": "kneel",
+   "description": "Kneeling, reaching to the ground to plant"
+  },
+  {
+   "id": "read-quran-a",
+   "lean": 4,
+   "head": 24,
+   "hip": 4,
+   "hip_x": -6,
+   "arm_front": [
+    30,
+    96
+   ],
+   "arm_back": [
+    26,
+    96
+   ],
+   "leg_front": [
+    86,
+    4
+   ],
+   "leg_back": [
+    80,
+    10
+   ],
+   "dress": "sit",
+   "description": "Sitting on the floor reading"
+  },
+  {
+   "id": "read-quran-b",
+   "lean": 10,
+   "head": 32,
+   "hip": 4,
+   "hip_x": -6,
+   "arm_front": [
+    30,
+    96
+   ],
+   "arm_back": [
+    26,
+    96
+   ],
+   "leg_front": [
+    86,
+    4
+   ],
+   "leg_back": [
+    80,
+    10
+   ],
+   "dress": "sit",
+   "description": "Sitting on the floor reading, rocking forward"
+  }
+ ],
+ "animations": [
+  {
+   "id": "stirring",
+   "poses": [
+    "stir-a",
+    "stir-b"
+   ],
+   "every": 0.35,
+   "tags": [
+    "cook",
+    "cooking",
+    "stir",
+    "pot",
+    "kitchen",
+    "iftar"
+   ],
+   "description": "Stirring a pot"
+  },
+  {
+   "id": "sweeping",
+   "poses": [
+    "sweep-a",
+    "sweep-b"
+   ],
+   "every": 0.45,
+   "tags": [
+    "sweep",
+    "clean",
+    "broom",
+    "house",
+    "masjid"
+   ],
+   "description": "Sweeping the floor"
+  },
+  {
+   "id": "digging",
+   "poses": [
+    "dig-down",
+    "dig-up"
+   ],
+   "every": 0.7,
+   "tags": [
+    "dig",
+    "farm",
+    "garden",
+    "work",
+    "spade"
+   ],
+   "description": "Digging with a spade"
+  },
+  {
+   "id": "writing",
+   "poses": [
+    "write-a",
+    "write-b"
+   ],
+   "every": 0.3,
+   "tags": [
+    "write",
+    "study",
+    "homework",
+    "letter",
+    "pen"
+   ],
+   "description": "Sitting and writing"
+  },
+  {
+   "id": "washing-hands",
+   "poses": [
+    "wash-a",
+    "wash-b"
+   ],
+   "every": 0.4,
+   "tags": [
+    "wash",
+    "wudu",
+    "hands",
+    "clean"
+   ],
+   "description": "Washing hands (e.g. wudu)"
+  },
+  {
+   "id": "planting",
+   "poses": [
+    "plant",
+    "kneel"
+   ],
+   "every": 1.0,
+   "tags": [
+    "plant",
+    "seed",
+    "tree",
+    "garden",
+    "sadaqah jariyah"
+   ],
+   "description": "Kneeling to plant a seed"
+  },
+  {
+   "id": "reciting-quran",
+   "poses": [
+    "read-quran-a",
+    "read-quran-b"
+   ],
+   "every": 0.9,
+   "tags": [
+    "quran",
+    "recite",
+    "read",
+    "tilawah",
+    "study"
+   ],
+   "description": "Reading the Quran, gently rocking"
+  }
+ ]
+}

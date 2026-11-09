@@ -1,0 +1,210 @@
+{
+ "format": 1,
+ "id": "people-at-work",
+ "name": "People at work",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "people",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Working people, ready to act: a farmer, a doctor, a nurse, a builder, a shopkeeper, a baker, a teacher, a fisherman and a cook. Every pose, walk and move works; try them with the Daily moves pack.",
+ "people": [
+  {
+   "id": "farmer",
+   "look": "round",
+   "base": "man",
+   "build": "broad",
+   "extras": [
+    "hat",
+    "beard"
+   ],
+   "colors": {
+    "clothes": "#8a6a45",
+    "skin": "#b07a4f",
+    "hair": "#3a2c22",
+    "accent": "#d9b46a"
+   },
+   "tags": [
+    "farmer",
+    "field",
+    "harvest",
+    "village",
+    "worker"
+   ],
+   "description": "Farmer in a straw hat"
+  },
+  {
+   "id": "doctor",
+   "look": "round",
+   "base": "man",
+   "extras": [
+    "stethoscope",
+    "glasses"
+   ],
+   "colors": {
+    "clothes": "#f2f4f6",
+    "skin": "#c99a6b"
+   },
+   "tags": [
+    "doctor",
+    "hospital",
+    "clinic",
+    "health",
+    "medicine"
+   ],
+   "description": "Doctor in white with a stethoscope"
+  },
+  {
+   "id": "nurse",
+   "look": "round",
+   "base": "woman",
+   "extras": [
+    "stethoscope"
+   ],
+   "colors": {
+    "clothes": "#7fa9c4",
+    "skin": "#e0b48c"
+   },
+   "tags": [
+    "nurse",
+    "hospital",
+    "care",
+    "health"
+   ],
+   "description": "Nurse in a blue dress and hood with a stethoscope"
+  },
+  {
+   "id": "builder",
+   "look": "round",
+   "base": "man",
+   "build": "broad",
+   "extras": [
+    "helmet"
+   ],
+   "holding": "hammer",
+   "colors": {
+    "clothes": "#d2722e",
+    "skin": "#a8774f",
+    "accent": "#f2c230"
+   },
+   "tags": [
+    "builder",
+    "construction",
+    "worker",
+    "hammer",
+    "build"
+   ],
+   "description": "Builder in a helmet with a hammer"
+  },
+  {
+   "id": "shopkeeper",
+   "look": "round",
+   "base": "man",
+   "extras": [
+    "apron",
+    "kufi",
+    "beard"
+   ],
+   "colors": {
+    "clothes": "#5b6b7a",
+    "skin": "#c08d62",
+    "hair": "#2b2119",
+    "accent": "#f3efe4"
+   },
+   "tags": [
+    "shopkeeper",
+    "shop",
+    "market",
+    "seller",
+    "trade"
+   ],
+   "description": "Shopkeeper in an apron"
+  },
+  {
+   "id": "baker",
+   "look": "round",
+   "base": "man",
+   "extras": [
+    "apron",
+    "kufi",
+    "thobe"
+   ],
+   "colors": {
+    "clothes": "#c9b79a",
+    "skin": "#d3a37a",
+    "accent": "#ffffff"
+   },
+   "tags": [
+    "baker",
+    "bread",
+    "bakery",
+    "food"
+   ],
+   "description": "Baker in a white apron"
+  },
+  {
+   "id": "teacher",
+   "look": "round",
+   "base": "woman",
+   "extras": [
+    "glasses"
+   ],
+   "holding": "book",
+   "colors": {
+    "clothes": "#3f5a7a",
+    "skin": "#d6a985"
+   },
+   "tags": [
+    "teacher",
+    "school",
+    "class",
+    "lesson",
+    "book"
+   ],
+   "description": "Teacher with glasses and a book"
+  },
+  {
+   "id": "fisherman",
+   "look": "round",
+   "base": "man",
+   "extras": [
+    "hat",
+    "beard"
+   ],
+   "colors": {
+    "clothes": "#2f5d6b",
+    "skin": "#a8774f",
+    "hair": "#d8d8d8",
+    "accent": "#c9a46a"
+   },
+   "tags": [
+    "fisherman",
+    "sea",
+    "boat",
+    "fish",
+    "yunus"
+   ],
+   "description": "Fisherman with a grey beard and a hat"
+  },
+  {
+   "id": "cook",
+   "look": "round",
+   "base": "woman",
+   "extras": [
+    "apron"
+   ],
+   "colors": {
+    "clothes": "#8c4a5a",
+    "skin": "#e3b892",
+    "accent": "#f3efe4"
+   },
+   "tags": [
+    "cook",
+    "kitchen",
+    "mother",
+    "iftar",
+    "food"
+   ],
+   "description": "Cook in an apron"
+  }
+ ]
+}
