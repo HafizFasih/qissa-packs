@@ -5,6 +5,8 @@ const CATEGORIES = [
   ['animals', 'Animals'],
   ['objects', 'Objects'],
   ['faith', 'Faith'],
+  ['animations', 'Animations'],
+  ['scenes', 'Scenes'],
   ['sounds', 'Sounds'],
   ['backgrounds', 'Backgrounds'],
   ['fonts', 'Fonts'],
@@ -26,6 +28,7 @@ function what(c) {
   add(c.props, 'item', 'items');
   add(c.backgrounds, 'background', 'backgrounds');
   add(c.poses, 'pose', 'poses');
+  add(c.animations ?? 0, 'animation', 'animations');
   add(c.sounds, 'sound', 'sounds');
   add(c.fonts, 'font', 'fonts');
   add(c.presets, 'scene', 'scenes');

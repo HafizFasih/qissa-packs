@@ -1,7 +1,37 @@
 {
   "format": 1,
-  "updated": "2026-11-09T09:48:09.885Z",
+  "updated": "2026-11-09T09:59:12.665Z",
   "packs": [
+    {
+      "id": "everyday-moves",
+      "name": "Everyday moves",
+      "version": "1.0.0",
+      "category": "animations",
+      "description": "Moves any figure can play on its own: clapping, eating, saying ameen, jumping for joy, deep thought and quiet tears.",
+      "author": "Qissa Studio",
+      "license": "CC0-1.0",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 5,
+        "animations": 6,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1279,
+      "sha256": "abaf9d9a87908896286a6a070bf79545e8b02bebc27627cf4ff5c919fb911aa9",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/everyday-moves-v1.0.0/everyday-moves-1.0.0.zip",
+      "preview": "previews/everyday-moves.png",
+      "sample": [
+        "clap",
+        "eating",
+        "ameen",
+        "jump-for-joy",
+        "deep-thought",
+        "quiet-tears"
+      ]
+    },
     {
       "id": "open-peeps",
       "name": "Open Peeps (curated)",
@@ -14,6 +44,7 @@
         "props": 16,
         "backgrounds": 0,
         "poses": 0,
+        "animations": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
@@ -43,6 +74,7 @@
         "props": 5,
         "backgrounds": 0,
         "poses": 0,
+        "animations": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
@@ -71,6 +103,7 @@
         "props": 3505,
         "backgrounds": 0,
         "poses": 0,
+        "animations": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0

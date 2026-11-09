@@ -1,0 +1,177 @@
+{
+  "id": "everyday-moves",
+  "name": "Everyday moves",
+  "version": "1.0.0",
+  "category": "animations",
+  "author": "Qissa Studio",
+  "license": "CC0-1.0",
+  "description": "Moves any figure can play on its own: clapping, eating, saying ameen, jumping for joy, deep thought and quiet tears.",
+  "poses": [
+    {
+      "id": "clap-open",
+      "lean": 2,
+      "head": 0,
+      "arm_front": [
+        62,
+        40
+      ],
+      "arm_back": [
+        34,
+        40
+      ],
+      "description": "Hands apart, about to clap"
+    },
+    {
+      "id": "clap-closed",
+      "lean": 2,
+      "head": 2,
+      "arm_front": [
+        48,
+        62
+      ],
+      "arm_back": [
+        46,
+        64
+      ],
+      "description": "Hands together"
+    },
+    {
+      "id": "eat-scoop",
+      "lean": 8,
+      "head": 22,
+      "arm_front": [
+        30,
+        40
+      ],
+      "arm_back": [
+        34,
+        70
+      ],
+      "description": "Hand down at the plate"
+    },
+    {
+      "id": "eat-bite",
+      "lean": 4,
+      "head": 6,
+      "arm_front": [
+        20,
+        140
+      ],
+      "arm_back": [
+        34,
+        70
+      ],
+      "description": "Hand up at the mouth"
+    },
+    {
+      "id": "wipe-face",
+      "head": 14,
+      "arm_front": [
+        14,
+        158
+      ],
+      "arm_back": [
+        10,
+        160
+      ],
+      "description": "Both hands over the face after dua"
+    }
+  ],
+  "animations": [
+    {
+      "id": "clap",
+      "poses": [
+        "clap-open",
+        "clap-closed"
+      ],
+      "every": 0.3,
+      "tags": [
+        "clap",
+        "applause",
+        "happy",
+        "well done"
+      ],
+      "description": "Claps hands"
+    },
+    {
+      "id": "eating",
+      "poses": [
+        "eat-scoop",
+        "eat-bite"
+      ],
+      "every": 0.9,
+      "tags": [
+        "eat",
+        "food",
+        "meal",
+        "iftar",
+        "suhoor"
+      ],
+      "description": "Eats with the hand, bite after bite"
+    },
+    {
+      "id": "ameen",
+      "poses": [
+        "dua",
+        "dua",
+        "wipe-face"
+      ],
+      "every": 1.1,
+      "tags": [
+        "dua",
+        "ameen",
+        "prayer",
+        "wipe face"
+      ],
+      "description": "Raises hands in dua, then wipes the face"
+    },
+    {
+      "id": "jump-for-joy",
+      "poses": [
+        "jump",
+        "celebrate"
+      ],
+      "every": 0.5,
+      "tags": [
+        "joy",
+        "happy",
+        "celebrate",
+        "eid",
+        "win"
+      ],
+      "description": "Jumps and cheers"
+    },
+    {
+      "id": "deep-thought",
+      "poses": [
+        "think",
+        "look_up",
+        "think",
+        "head_down"
+      ],
+      "every": 1.4,
+      "tags": [
+        "think",
+        "wonder",
+        "worry",
+        "decide"
+      ],
+      "description": "Thinks, looks up, looks down"
+    },
+    {
+      "id": "quiet-tears",
+      "poses": [
+        "sit_sad",
+        "cry"
+      ],
+      "every": 1.2,
+      "tags": [
+        "sad",
+        "cry",
+        "grief",
+        "regret"
+      ],
+      "description": "Sits sadly and cries"
+    }
+  ]
+}
