@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-09T09:39:17.025Z",
+  "updated": "2026-11-09T09:48:09.885Z",
   "packs": [
     {
       "id": "open-peeps",
@@ -19,7 +19,7 @@
         "presets": 0
       },
       "size": 357127,
-      "sha256": "59f806415f9b24040596770403de1efc7beb675df98e0a73d177a16a77c61cd0",
+      "sha256": "b00add991f7dc12eae9df6b2c2b582de18630718bcbbff050be375b08b6c7153",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/open-peeps-v1.0.0/open-peeps-1.0.0.zip",
       "preview": "previews/open-peeps.svg",
       "sample": [
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": "ramadan-nights",
-      "name": "Ramadan nights",
+      "id": "ramadan-essentials",
+      "name": "Ramadan essentials",
       "version": "1.0.0",
       "category": "faith",
       "description": "A hanging lantern, the crescent and star, a bowl of dates, a prayer mat and prayer beads. Lines take the element colour; glows and fills take colour 2.",
@@ -47,10 +47,10 @@
         "fonts": 0,
         "presets": 0
       },
-      "size": 3329,
-      "sha256": "8ffd3e2a01036907fc0853411b68248fe81b8fef37f6f272e29104b7484275d8",
-      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/ramadan-nights-v1.0.0/ramadan-nights-1.0.0.zip",
-      "preview": "previews/ramadan-nights.svg",
+      "size": 3388,
+      "sha256": "50ec3d6f4487c143ea6bb9e8d02af2fc08ec96c76c2148393d68df7ce7fbc019",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/ramadan-essentials-v1.0.0/ramadan-essentials-1.0.0.zip",
+      "preview": "previews/ramadan-essentials.svg",
       "sample": [
         "lantern",
         "crescent",
@@ -76,7 +76,7 @@
         "presets": 0
       },
       "size": 1516679,
-      "sha256": "f7d4bc5e54bf793b5298fb24e8c7ef79e1f20b944aa62c69101e52d562bc1074",
+      "sha256": "749288b3f2b5bc5ff053ca11ca0c3a0cb5282a9812dfedac8fb161d955ddb6f5",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/tabler-icons-v3.50.0/tabler-icons-3.50.0.zip",
       "preview": "previews/tabler-icons.svg",
       "sample": [
