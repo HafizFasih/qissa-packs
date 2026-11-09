@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-09T09:28:43.837Z",
+  "updated": "2026-11-09T09:39:17.025Z",
   "packs": [
     {
       "id": "open-peeps",
@@ -19,8 +19,8 @@
         "presets": 0
       },
       "size": 357127,
-      "sha256": "0afb8acc7868c1119bb0b0a7e5ff061f1f5fc5fe13adb8952f16bdd0c848d74a",
-      "url": "http://127.0.0.1:5181/dist/open-peeps-1.0.0.zip",
+      "sha256": "59f806415f9b24040596770403de1efc7beb675df98e0a73d177a16a77c61cd0",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/open-peeps-v1.0.0/open-peeps-1.0.0.zip",
       "preview": "previews/open-peeps.svg",
       "sample": [
         "man-sitting-bald",
@@ -48,8 +48,8 @@
         "presets": 0
       },
       "size": 3329,
-      "sha256": "3afb087a6127ec7bc1298e563db3d049d4617506d51a4f07bc325680c9a141a5",
-      "url": "http://127.0.0.1:5181/dist/ramadan-nights-1.0.0.zip",
+      "sha256": "8ffd3e2a01036907fc0853411b68248fe81b8fef37f6f272e29104b7484275d8",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/ramadan-nights-v1.0.0/ramadan-nights-1.0.0.zip",
       "preview": "previews/ramadan-nights.svg",
       "sample": [
         "lantern",
@@ -76,8 +76,8 @@
         "presets": 0
       },
       "size": 1516679,
-      "sha256": "bf6b7bf6071738ec9cc4aca8bdd00ba62feadb73bbc88ad61366df97265dd418",
-      "url": "http://127.0.0.1:5181/dist/tabler-icons-3.50.0.zip",
+      "sha256": "f7d4bc5e54bf793b5298fb24e8c7ef79e1f20b944aa62c69101e52d562bc1074",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/tabler-icons-v3.50.0/tabler-icons-3.50.0.zip",
       "preview": "previews/tabler-icons.svg",
       "sample": [
         "access-point",
