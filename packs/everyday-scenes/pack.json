@@ -51,7 +51,7 @@
       "height": 400,
       "pose": "sit_floor",
       "cycle": {
-       "poses": "everyday-moves/eating",
+       "poses": "everyday-moves/eating-seated",
        "from": 1.5
       }
      },

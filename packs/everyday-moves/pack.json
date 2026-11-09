@@ -5,7 +5,7 @@
   "category": "animations",
   "author": "Qissa Studio",
   "license": "CC0-1.0",
-  "description": "Moves any figure can play on its own: clapping, eating, saying ameen, jumping for joy, deep thought and quiet tears.",
+  "description": "Moves any figure can play on its own: clapping, eating (standing or seated on the floor), saying ameen, jumping for joy, deep thought and quiet tears.",
   "poses": [
     {
       "id": "clap-open",
@@ -75,6 +75,56 @@
         160
       ],
       "description": "Both hands over the face after dua"
+    },
+    {
+      "id": "eat-scoop-seated",
+      "lean": 10,
+      "head": 22,
+      "arm_front": [
+        40,
+        40
+      ],
+      "arm_back": [
+        30,
+        60
+      ],
+      "hip": 4,
+      "hip_x": -6,
+      "leg_front": [
+        86,
+        4
+      ],
+      "leg_back": [
+        80,
+        10
+      ],
+      "dress": "sit",
+      "description": "Sitting on the floor, hand down at the plate"
+    },
+    {
+      "id": "eat-bite-seated",
+      "lean": 4,
+      "head": 6,
+      "arm_front": [
+        20,
+        140
+      ],
+      "arm_back": [
+        30,
+        60
+      ],
+      "hip": 4,
+      "hip_x": -6,
+      "leg_front": [
+        86,
+        4
+      ],
+      "leg_back": [
+        80,
+        10
+      ],
+      "dress": "sit",
+      "description": "Sitting on the floor, hand at the mouth"
     }
   ],
   "animations": [
@@ -108,6 +158,24 @@
         "suhoor"
       ],
       "description": "Eats with the hand, bite after bite"
+    },
+    {
+      "id": "eating-seated",
+      "poses": [
+        "eat-scoop-seated",
+        "eat-bite-seated"
+      ],
+      "every": 0.9,
+      "tags": [
+        "eat",
+        "food",
+        "meal",
+        "iftar",
+        "suhoor",
+        "sitting",
+        "floor"
+      ],
+      "description": "Sits on the floor and eats, bite after bite"
     },
     {
       "id": "ameen",

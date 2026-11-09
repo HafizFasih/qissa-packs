@@ -1,0 +1,1024 @@
+{
+ "format": 1,
+ "id": "story-templates",
+ "name": "Story templates",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "scenes",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Five whole reels to start from, with {{blanks}} for your words: a Ramadan journey, a story of patience, one kind act, the honest trader and a day of gratitude. In the editor: Samples. For the AI: get_recipe.",
+ "requires": [
+  "family-elders",
+  "people-at-work",
+  "everyday-moves",
+  "daily-moves",
+  "places",
+  "animals",
+  "ramadan-eid",
+  "nature-home-sounds"
+ ],
+ "stories": [
+  {
+   "id": "ramadan-journey",
+   "title": "A Ramadan journey",
+   "when": "A reel about one family's Ramadan, from the first suhoor to Eid morning.",
+   "beats": [
+    "Suhoor before dawn",
+    "The fast through the day",
+    "Iftar together",
+    "Night prayer in the masjid",
+    "The last ten nights",
+    "Eid morning",
+    "The lesson"
+   ],
+   "tips": [
+    "Keep every line short: one thought per scene.",
+    "Swap the people for your own family (Figure menu).",
+    "Add a voice-over last, once the pictures are right."
+   ],
+   "storyboard": {
+    "title": "{{reel title, e.g. Our Ramadan}}",
+    "sound": {
+     "ambient": "night_breeze"
+    },
+    "scenes": [
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "kitchen",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{suhoor line, e.g. Before the sun, a quiet meal}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/cook",
+        "x": 380,
+        "y": 1440,
+        "height": 400,
+        "cycle": {
+         "poses": "daily-moves/stirring",
+         "from": 0.5
+        }
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/girl",
+        "x": 700,
+        "y": 1440,
+        "height": 400,
+        "facing": "left",
+        "pose": "sit_floor"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/village-day",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the fast, e.g. Hungry, but not alone}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 420,
+        "y": 1440,
+        "height": 400,
+        "cycle": {
+         "poses": "daily-moves/digging",
+         "from": 0.5
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "living_room",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{iftar line}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "prop",
+        "prop": "ramadan-eid/iftar-spread",
+        "x": 540,
+        "y": 1500,
+        "size": 190,
+        "color": "#f4efe6",
+        "color2": "#b5523a"
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/father",
+        "x": 250,
+        "y": 1490,
+        "height": 400,
+        "pose": "sit_floor",
+        "cycle": {
+         "poses": "everyday-moves/eating-seated",
+         "from": 1
+        }
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/mother",
+        "x": 830,
+        "y": 1490,
+        "height": 400,
+        "pose": "sit_floor",
+        "facing": "left"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 6,
+      "background": "places/masjid-inside",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{night prayer line}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/imam",
+        "x": 300,
+        "y": 1470,
+        "height": 400,
+        "cycle": {
+         "poses": "salah",
+         "from": 0.3
+        }
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/father",
+        "x": 560,
+        "y": 1470,
+        "height": 400,
+        "cycle": {
+         "poses": "salah",
+         "from": 0.3
+        }
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/boy",
+        "x": 780,
+        "y": 1470,
+        "height": 400,
+        "cycle": {
+         "poses": "salah",
+         "from": 0.3
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 5,
+      "background": "places/mountain-cave",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{last ten nights line}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/grandfather",
+        "x": 540,
+        "y": 1500,
+        "height": 400,
+        "cycle": {
+         "poses": "everyday-moves/ameen",
+         "from": 0.5
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/spring-meadow",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{Eid line, e.g. Eid Mubarak!}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/girl",
+        "x": 400,
+        "y": 1450,
+        "height": 400,
+        "cycle": {
+         "poses": "everyday-moves/jump-for-joy",
+         "from": 0.5
+        }
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/boy",
+        "x": 680,
+        "y": 1450,
+        "height": 400,
+        "facing": "left",
+        "cycle": {
+         "poses": "everyday-moves/clap",
+         "from": 1
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4,
+      "background": "night_sky",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the takeaway, one short line}}",
+        "x": 540,
+        "y": 820
+       },
+       {
+        "type": "text",
+        "role": "caption",
+        "text": "{{a gentle call to act}}",
+        "x": 540,
+        "y": 1060,
+        "at": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "patience",
+   "title": "A story of patience",
+   "when": "Someone faces a hardship, keeps going with dua and work, and finds relief.",
+   "beats": [
+    "The hardship",
+    "Turning to Allah",
+    "Keeping on",
+    "The ayah",
+    "The relief",
+    "The lesson"
+   ],
+   "tips": [
+    "Make the hardship concrete (a failed crop, a lost job, an illness).",
+    "The relief scene can be quiet: a small good thing, not a miracle."
+   ],
+   "storyboard": {
+    "title": "{{reel title}}",
+    "sound": {
+     "ambient": "nature-home-sounds/heavy-rain"
+    },
+    "scenes": [
+     {
+      "kind": "canvas",
+      "duration_override": 5,
+      "background": "rain_night",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the hardship, one line}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 540,
+        "y": 1450,
+        "height": 400,
+        "pose": "sit_sad",
+        "seat": "rock"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 5,
+      "background": "places/mountain-cave",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{turning to Allah}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 540,
+        "y": 1500,
+        "height": 400,
+        "cycle": {
+         "poses": "everyday-moves/ameen",
+         "from": 0.5
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/village-day",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{keeping on}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 420,
+        "y": 1440,
+        "height": 400,
+        "cycle": {
+         "poses": "daily-moves/digging",
+         "from": 0.3
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 7,
+      "background": "masjid_night",
+      "elements": [
+       {
+        "type": "citation",
+        "arabic": "{{the ayah in Arabic, exact}}",
+        "translation": "{{its translation}}",
+        "source": "{{Surah name chapter:verse}}",
+        "y": 900,
+        "look": "card"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/spring-meadow",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the relief}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 360,
+        "y": 1450,
+        "height": 400,
+        "pose": "celebrate"
+       },
+       {
+        "type": "prop",
+        "prop": "animals/sheep",
+        "x": 720,
+        "y": 1460,
+        "size": 200,
+        "color": "#2b2b30",
+        "color2": "#d9c7a8",
+        "flip": true
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4,
+      "background": "dawn",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the takeaway, one short line}}",
+        "x": 540,
+        "y": 820
+       },
+       {
+        "type": "text",
+        "role": "caption",
+        "text": "{{a gentle call to act}}",
+        "x": 540,
+        "y": 1060,
+        "at": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "one-kind-act",
+   "title": "One kind act",
+   "when": "A small kindness passes from person to person and comes back.",
+   "beats": [
+    "A boy helps a thirsty cat",
+    "A woman sees and helps a neighbour",
+    "The neighbour helps someone else",
+    "It comes back to the boy",
+    "The lesson"
+   ],
+   "tips": [
+    "Each scene shows one act; the words name it.",
+    "End with the hadith or ayah about mercy if you like (add a citation scene)."
+   ],
+   "storyboard": {
+    "title": "{{reel title}}",
+    "sound": {
+     "ambient": "nature-home-sounds/birds"
+    },
+    "scenes": [
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/autumn-park",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{first act}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/boy",
+        "x": 420,
+        "y": 1500,
+        "height": 400,
+        "pose": "kneel"
+       },
+       {
+        "type": "prop",
+        "prop": "ramadan-eid/water-glass",
+        "x": 560,
+        "y": 1500,
+        "size": 70,
+        "color": "#f4efe6",
+        "color2": "#7fb8e0"
+       },
+       {
+        "type": "prop",
+        "prop": "animals/cat",
+        "x": 690,
+        "y": 1500,
+        "size": 170,
+        "color": "#2b2b30",
+        "color2": "#f5b041",
+        "flip": true
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/village-day",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{second act}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/mother",
+        "x": 360,
+        "y": 1440,
+        "height": 400,
+        "pose": "give"
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/grandmother",
+        "x": 640,
+        "y": 1440,
+        "height": 400,
+        "facing": "left"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/winter-village",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{third act}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/shopkeeper",
+        "x": 380,
+        "y": 1440,
+        "height": 400,
+        "pose": "give"
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/fisherman",
+        "x": 660,
+        "y": 1440,
+        "height": 400,
+        "facing": "left",
+        "pose": "wave"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/spring-meadow",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{it comes back}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/fisherman",
+        "x": 380,
+        "y": 1440,
+        "height": 400,
+        "pose": "give"
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/boy",
+        "x": 640,
+        "y": 1440,
+        "height": 400,
+        "facing": "left",
+        "cycle": {
+         "poses": "everyday-moves/clap",
+         "from": 1
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4,
+      "background": "golden_hour",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the takeaway, one short line}}",
+        "x": 540,
+        "y": 820
+       },
+       {
+        "type": "text",
+        "role": "caption",
+        "text": "{{a gentle call to act}}",
+        "x": 540,
+        "y": 1060,
+        "at": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "honest-trader",
+   "title": "The honest trader",
+   "when": "A shopkeeper chooses honesty when cheating would be easy, and is blessed for it.",
+   "beats": [
+    "The shop",
+    "The chance to cheat",
+    "The choice",
+    "The customer returns",
+    "The blessing",
+    "The lesson"
+   ],
+   "tips": [
+    "Show the temptation clearly in one line.",
+    "Coins sound: add nature-home-sounds/coins when money changes hands."
+   ],
+   "storyboard": {
+    "title": "{{reel title}}",
+    "scenes": [
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "market",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the shop}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/shopkeeper",
+        "x": 420,
+        "y": 1440,
+        "height": 400
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 700,
+        "y": 1440,
+        "height": 400,
+        "facing": "left"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 5,
+      "background": "market",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the chance to cheat}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/shopkeeper",
+        "x": 540,
+        "y": 1440,
+        "height": 400,
+        "cycle": {
+         "poses": "everyday-moves/deep-thought",
+         "from": 0.3
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "market",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the honest choice}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/shopkeeper",
+        "x": 420,
+        "y": 1440,
+        "height": 400,
+        "pose": "give"
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 700,
+        "y": 1440,
+        "height": 400,
+        "facing": "left"
+       }
+      ],
+      "sounds": [
+       {
+        "sfx": "nature-home-sounds/coins",
+        "at": 1.2
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "market",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the customer returns, with friends}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/shopkeeper",
+        "x": 300,
+        "y": 1440,
+        "height": 400
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/farmer",
+        "x": 560,
+        "y": 1440,
+        "height": 400,
+        "facing": "left",
+        "pose": "wave"
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/builder",
+        "x": 760,
+        "y": 1440,
+        "height": 400,
+        "facing": "left"
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/teacher",
+        "x": 930,
+        "y": 1440,
+        "height": 400,
+        "facing": "left"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 7,
+      "background": "masjid_night",
+      "elements": [
+       {
+        "type": "citation",
+        "arabic": "{{the ayah in Arabic, exact}}",
+        "translation": "{{its translation}}",
+        "source": "{{Surah name chapter:verse}}",
+        "y": 900,
+        "look": "card"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4,
+      "background": "night_sky",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the takeaway, one short line}}",
+        "x": 540,
+        "y": 820
+       },
+       {
+        "type": "text",
+        "role": "caption",
+        "text": "{{a gentle call to act}}",
+        "x": 540,
+        "y": 1060,
+        "at": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "gratitude-day",
+   "title": "A day of gratitude",
+   "when": "One ordinary day, from Fajr to sleep, counting the blessings in it.",
+   "beats": [
+    "Waking for Fajr",
+    "Food on the table",
+    "Work to do",
+    "Family in the evening",
+    "Night",
+    "The lesson"
+   ],
+   "tips": [
+    "Name one small blessing per scene.",
+    "A counter element (\"Blessing 1, 2, 3\u2026\") works well across scenes."
+   ],
+   "storyboard": {
+    "title": "{{reel title}}",
+    "scenes": [
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "masjid_dawn",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{Fajr blessing}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/father",
+        "x": 400,
+        "y": 1440,
+        "height": 400,
+        "pose": "walk",
+        "keys": [
+         {
+          "at": 0,
+          "x": 200
+         },
+         {
+          "at": 4.5,
+          "x": 700,
+          "ease": "linear"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "living_room",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{food blessing}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "prop",
+        "prop": "ramadan-eid/iftar-spread",
+        "x": 540,
+        "y": 1500,
+        "size": 190,
+        "color": "#f4efe6",
+        "color2": "#b5523a"
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/girl",
+        "x": 300,
+        "y": 1490,
+        "height": 400,
+        "pose": "sit_floor",
+        "cycle": {
+         "poses": "everyday-moves/eating-seated",
+         "from": 0.5
+        }
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "places/village-day",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{work blessing}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "people-at-work/builder",
+        "x": 420,
+        "y": 1440,
+        "height": 400,
+        "pose": "hammer"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "living_room",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{family blessing}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/grandmother",
+        "x": 300,
+        "y": 1440,
+        "height": 400
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/girl",
+        "x": 520,
+        "y": 1440,
+        "height": 400,
+        "facing": "left",
+        "cycle": {
+         "poses": "everyday-moves/clap",
+         "from": 1
+        }
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/mother",
+        "x": 760,
+        "y": 1440,
+        "height": 400,
+        "facing": "left"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4.5,
+      "background": "night_sky",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{night blessing}}",
+        "x": 540,
+        "y": 380
+       },
+       {
+        "type": "figure",
+        "figure": "family-elders/father",
+        "x": 540,
+        "y": 1500,
+        "height": 400,
+        "pose": "dua"
+       }
+      ]
+     },
+     {
+      "kind": "canvas",
+      "duration_override": 4,
+      "background": "night_sky",
+      "elements": [
+       {
+        "type": "text",
+        "role": "headline",
+        "text": "{{the takeaway, one short line}}",
+        "x": 540,
+        "y": 820
+       },
+       {
+        "type": "text",
+        "role": "caption",
+        "text": "{{a gentle call to act}}",
+        "x": 540,
+        "y": 1060,
+        "at": 1
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
