@@ -1,0 +1,137 @@
+{
+ "format": 1,
+ "id": "ramadan-eid",
+ "name": "Ramadan & Eid",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "faith",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Iftar spread, a glass of water, Eid gift box and sweets, a charity box, a lantern garland, a Quran stand, a moon-sighting telescope and the suhoor drum. Lines take the element colour; fills take colour 2.",
+ "colors": {
+  "line": "#ffffff",
+  "accent": "#ff00ff",
+  "default_line": "#f4efe6",
+  "default_accent": "#f5b041"
+ },
+ "props": [
+  {
+   "id": "iftar-spread",
+   "file": "props/iftar-spread.svg",
+   "group": "iftar",
+   "tags": [
+    "iftar",
+    "food",
+    "table",
+    "dastarkhwan",
+    "ramadan",
+    "family"
+   ],
+   "description": "Iftar cloth with plates of food and dates"
+  },
+  {
+   "id": "water-glass",
+   "file": "props/water-glass.svg",
+   "group": "iftar",
+   "tags": [
+    "water",
+    "glass",
+    "drink",
+    "iftar",
+    "thirst"
+   ],
+   "description": "Glass of water"
+  },
+  {
+   "id": "gift-box",
+   "file": "props/gift-box.svg",
+   "group": "eid",
+   "tags": [
+    "gift",
+    "present",
+    "eid",
+    "box"
+   ],
+   "description": "Eid gift box with a bow"
+  },
+  {
+   "id": "sweets-plate",
+   "file": "props/sweets-plate.svg",
+   "group": "eid",
+   "tags": [
+    "sweets",
+    "eid",
+    "plate",
+    "dessert",
+    "sharing"
+   ],
+   "description": "Plate of Eid sweets"
+  },
+  {
+   "id": "charity-box",
+   "file": "props/charity-box.svg",
+   "group": "charity",
+   "tags": [
+    "charity",
+    "sadaqah",
+    "zakat",
+    "donation",
+    "box",
+    "coin"
+   ],
+   "description": "Charity box with a coin going in"
+  },
+  {
+   "id": "lantern-garland",
+   "file": "props/lantern-garland.svg",
+   "group": "decor",
+   "tags": [
+    "lanterns",
+    "garland",
+    "decoration",
+    "ramadan",
+    "string lights"
+   ],
+   "description": "String of small lanterns (glow in colour 2)"
+  },
+  {
+   "id": "quran-stand",
+   "file": "props/quran-stand.svg",
+   "group": "quran",
+   "tags": [
+    "quran",
+    "rehal",
+    "stand",
+    "reading",
+    "book"
+   ],
+   "description": "Open Quran on a folding stand (rehal)"
+  },
+  {
+   "id": "moon-telescope",
+   "file": "props/moon-telescope.svg",
+   "group": "moon",
+   "tags": [
+    "moon sighting",
+    "telescope",
+    "crescent",
+    "ramadan",
+    "eid",
+    "hilal"
+   ],
+   "description": "Telescope pointed at the new crescent"
+  },
+  {
+   "id": "drum",
+   "file": "props/drum.svg",
+   "group": "suhoor",
+   "tags": [
+    "drum",
+    "suhoor",
+    "musaharati",
+    "wake up",
+    "ramadan"
+   ],
+   "description": "Suhoor drum with a stick"
+  }
+ ]
+}

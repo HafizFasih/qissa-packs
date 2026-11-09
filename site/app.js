@@ -90,6 +90,7 @@ function draw() {
       el.querySelector('h3').textContent = p.name;
       el.querySelector('.desc').textContent = p.description ?? '';
       el.querySelector('.meta').textContent = [what(p.counts), kb(p.size), p.license].filter(Boolean).join(' · ');
+      if (p.requires?.length) el.querySelector('.meta').textContent += ` · Uses ${p.requires.map((r) => packs.find((x) => x.id === r)?.name ?? r).join(', ')}`;
       el.querySelector('.open').href = `qissa://install/${encodeURIComponent(p.id)}`;
       el.querySelector('.open').title = 'Opens Qissa Studio on this pack (Qissa Studio must be installed)';
       const dl = el.querySelector('.dl');

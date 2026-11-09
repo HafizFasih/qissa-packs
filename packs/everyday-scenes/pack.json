@@ -1,0 +1,479 @@
+{
+ "format": 1,
+ "id": "everyday-scenes",
+ "name": "Everyday scenes",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "scenes",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Eight ready scenes to drop into a reel: a family iftar, a lesson in the masjid, walking to Fajr, Eid morning, kindness to a cat, a desert journey, the days of Mina and visiting grandparents.",
+ "requires": [
+  "family-elders",
+  "everyday-moves",
+  "places",
+  "animals",
+  "ramadan-eid",
+  "hajj-umrah"
+ ],
+ "presets": [
+  {
+   "id": "family-iftar",
+   "name": "Family iftar",
+   "description": "The family sits around the iftar cloth; the father eats, the girl claps",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": {
+     "type": "living_room"
+    },
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Iftar together",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "prop",
+      "prop": "ramadan-eid/iftar-spread",
+      "x": 540,
+      "y": 1500,
+      "size": 190,
+      "color": "#f4efe6",
+      "color2": "#b5523a"
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/father",
+      "x": 250,
+      "y": 1490,
+      "height": 400,
+      "pose": "sit_floor",
+      "cycle": {
+       "poses": "everyday-moves/eating",
+       "from": 1.5
+      }
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/mother",
+      "x": 830,
+      "y": 1490,
+      "height": 400,
+      "pose": "sit_floor",
+      "facing": "left"
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/girl",
+      "x": 700,
+      "y": 1530,
+      "height": 400,
+      "pose": "sit_floor",
+      "facing": "left",
+      "cycle": {
+       "poses": "everyday-moves/clap",
+       "from": 3
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "masjid-lesson",
+   "name": "Lesson in the masjid",
+   "description": "The imam teaches from a Quran stand; a boy and a student listen",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": "places/masjid-inside",
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Seeking knowledge",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/imam",
+      "x": 300,
+      "y": 1470,
+      "height": 400,
+      "pose": "sit_floor"
+     },
+     {
+      "type": "prop",
+      "prop": "ramadan-eid/quran-stand",
+      "x": 420,
+      "y": 1480,
+      "size": 110,
+      "color": "#f4efe6",
+      "color2": "#2f6b4f"
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/student",
+      "x": 680,
+      "y": 1480,
+      "height": 400,
+      "pose": "sit_floor",
+      "facing": "left",
+      "cycle": {
+       "poses": "everyday-moves/deep-thought",
+       "from": 2
+      }
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/boy",
+      "x": 860,
+      "y": 1500,
+      "height": 400,
+      "pose": "sit_floor",
+      "facing": "left"
+     }
+    ]
+   }
+  },
+  {
+   "id": "walk-to-fajr",
+   "name": "Walking to Fajr",
+   "description": "A father and his son walk to the masjid before dawn",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": {
+     "type": "masjid_dawn"
+    },
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "The walk to Fajr",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/father",
+      "x": 160,
+      "y": 1460,
+      "height": 400,
+      "pose": "walk",
+      "keys": [
+       {
+        "at": 0,
+        "x": 160
+       },
+       {
+        "at": 6,
+        "x": 760,
+        "ease": "linear"
+       }
+      ]
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/boy",
+      "x": 60,
+      "y": 1460,
+      "height": 400,
+      "pose": "walk",
+      "keys": [
+       {
+        "at": 0,
+        "x": 60
+       },
+       {
+        "at": 6,
+        "x": 660,
+        "ease": "linear"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "eid-morning",
+   "name": "Eid morning",
+   "description": "Grandfather gives a gift; the girl jumps for joy",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": "places/spring-meadow",
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Eid Mubarak",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/grandfather",
+      "x": 280,
+      "y": 1440,
+      "height": 400,
+      "pose": "give"
+     },
+     {
+      "type": "prop",
+      "prop": "ramadan-eid/gift-box",
+      "x": 420,
+      "y": 1290,
+      "size": 90,
+      "color": "#f4efe6",
+      "color2": "#c4706a"
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/boy",
+      "x": 540,
+      "y": 1450,
+      "height": 400,
+      "facing": "left",
+      "pose": "celebrate"
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/girl",
+      "x": 780,
+      "y": 1450,
+      "height": 400,
+      "facing": "left",
+      "cycle": {
+       "poses": "everyday-moves/jump-for-joy",
+       "from": 1
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "kindness-to-a-cat",
+   "name": "Kindness to a cat",
+   "description": "A boy kneels to give a thirsty cat some water",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": "places/autumn-park",
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Mercy to every living thing",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/boy",
+      "x": 420,
+      "y": 1500,
+      "height": 400,
+      "pose": "kneel"
+     },
+     {
+      "type": "prop",
+      "prop": "ramadan-eid/water-glass",
+      "x": 560,
+      "y": 1500,
+      "size": 70,
+      "color": "#f4efe6",
+      "color2": "#7fb8e0"
+     },
+     {
+      "type": "prop",
+      "prop": "animals/cat",
+      "x": 690,
+      "y": 1500,
+      "size": 170,
+      "color": "#2b2b30",
+      "color2": "#f5b041",
+      "flip": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "desert-journey",
+   "name": "Desert journey",
+   "description": "A man leads his camel across the dunes at dusk",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": "places/desert-caravan",
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Every journey begins with a step",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/father",
+      "x": 420,
+      "y": 1520,
+      "height": 400,
+      "pose": "walk",
+      "keys": [
+       {
+        "at": 0,
+        "x": 420
+       },
+       {
+        "at": 6,
+        "x": 760,
+        "ease": "linear"
+       }
+      ]
+     },
+     {
+      "type": "prop",
+      "prop": "animals/camel",
+      "x": 200,
+      "y": 1530,
+      "size": 300,
+      "color": "#3a1f24",
+      "color2": "#f5b041",
+      "keys": [
+       {
+        "at": 0,
+        "x": 200
+       },
+       {
+        "at": 6,
+        "x": 540,
+        "ease": "linear"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "days-of-mina",
+   "name": "Days of Mina",
+   "description": "Tents of Mina; a pilgrim raises his hands and says ameen",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": {
+     "type": "desert"
+    },
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Labbayk Allahumma labbayk",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "prop",
+      "prop": "hajj-umrah/tent",
+      "x": 200,
+      "y": 1330,
+      "size": 220,
+      "color": "#f4efe6",
+      "color2": "#f4efe6",
+      "opacity": 0.85
+     },
+     {
+      "type": "prop",
+      "prop": "hajj-umrah/tent",
+      "x": 470,
+      "y": 1310,
+      "size": 200,
+      "color": "#f4efe6",
+      "color2": "#f4efe6",
+      "opacity": 0.8
+     },
+     {
+      "type": "prop",
+      "prop": "hajj-umrah/tent",
+      "x": 760,
+      "y": 1330,
+      "size": 230,
+      "color": "#f4efe6",
+      "color2": "#f4efe6",
+      "opacity": 0.85
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/father",
+      "x": 540,
+      "y": 1500,
+      "height": 400,
+      "color": "#f4f1ea",
+      "cycle": {
+       "poses": "everyday-moves/ameen",
+       "from": 0.5
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "grandparents-visit",
+   "name": "Visiting grandparents",
+   "description": "Grandparents welcome the family on a snowy day",
+   "scene": {
+    "kind": "canvas",
+    "duration": 6,
+    "background": "places/winter-village",
+    "elements": [
+     {
+      "type": "text",
+      "role": "title",
+      "text": "Keep the ties of kinship",
+      "x": 540,
+      "y": 380
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/grandfather",
+      "x": 240,
+      "y": 1470,
+      "height": 400
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/grandmother",
+      "x": 420,
+      "y": 1470,
+      "height": 400
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/girl",
+      "x": 700,
+      "y": 1480,
+      "height": 400,
+      "facing": "left",
+      "cycle": {
+       "poses": "everyday-moves/clap",
+       "from": 1.5
+      }
+     },
+     {
+      "type": "figure",
+      "figure": "family-elders/mother",
+      "x": 860,
+      "y": 1470,
+      "height": 400,
+      "facing": "left",
+      "pose": "wave"
+     }
+    ]
+   }
+  }
+ ]
+}

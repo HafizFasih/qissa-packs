@@ -1,0 +1,84 @@
+{
+ "format": 1,
+ "id": "places",
+ "name": "Places",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "places",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Full-screen places: inside a masjid, a village, desert dunes with a caravan, a spring meadow, an autumn park, a snowy village, a mountain cave at night and the seashore. The ground is at about y 1360-1400; the colours are the sky (they set the text colour).",
+ "backgrounds": [
+  {
+   "id": "masjid-inside",
+   "image": "backgrounds/masjid-inside.svg",
+   "colors": [
+    "#e9dcc4",
+    "#cdb895"
+   ],
+   "description": "Inside a masjid: arches, mihrab, lamps and a red carpet with prayer rows"
+  },
+  {
+   "id": "village-day",
+   "image": "backgrounds/village-day.svg",
+   "colors": [
+    "#8cc4ec",
+    "#f3e7cf"
+   ],
+   "description": "A village of mud houses and palm trees by day, with a path"
+  },
+  {
+   "id": "desert-caravan",
+   "image": "backgrounds/desert-caravan.svg",
+   "colors": [
+    "#3b2a5a",
+    "#d8685a"
+   ],
+   "description": "Desert dunes at dusk with a camel caravan on the horizon"
+  },
+  {
+   "id": "spring-meadow",
+   "image": "backgrounds/spring-meadow.svg",
+   "colors": [
+    "#6fb6ea",
+    "#d8efff"
+   ],
+   "description": "Green spring meadow with flowers, a tree and white clouds"
+  },
+  {
+   "id": "autumn-park",
+   "image": "backgrounds/autumn-park.svg",
+   "colors": [
+    "#f2c48d",
+    "#f7e6cf"
+   ],
+   "description": "Autumn park: orange trees, falling leaves and a path"
+  },
+  {
+   "id": "winter-village",
+   "image": "backgrounds/winter-village.svg",
+   "colors": [
+    "#7f93b0",
+    "#d9e2ec"
+   ],
+   "description": "Snowy village in winter with warm lit windows and falling snow"
+  },
+  {
+   "id": "mountain-cave",
+   "image": "backgrounds/mountain-cave.svg",
+   "colors": [
+    "#0b1430",
+    "#2a3560"
+   ],
+   "description": "Rocky mountain with a cave mouth under a starry night (Hira, Thawr)"
+  },
+  {
+   "id": "seashore",
+   "image": "backgrounds/seashore.svg",
+   "colors": [
+    "#88c6ef",
+    "#e9f5fb"
+   ],
+   "description": "Sandy shore by a blue sea with a sailing boat (Yunus, travel)"
+  }
+ ]
+}

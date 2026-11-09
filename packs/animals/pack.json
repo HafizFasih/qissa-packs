@@ -1,0 +1,191 @@
+{
+ "format": 1,
+ "id": "animals",
+ "name": "Animals",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "animals",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "Animals from the stories: camel, horse, sheep, cow, dog, cat, birds, the hoopoe, the ant, the spider's web, fish, the whale and the elephant. Lines take the element colour; fills take colour 2.",
+ "colors": {
+  "line": "#ffffff",
+  "accent": "#ff00ff",
+  "default_line": "#f4efe6",
+  "default_accent": "#f5b041"
+ },
+ "props": [
+  {
+   "id": "camel",
+   "file": "props/camel.svg",
+   "group": "travel",
+   "tags": [
+    "camel",
+    "desert",
+    "caravan",
+    "hajj",
+    "journey"
+   ],
+   "description": "Camel with a saddle blanket (colour 2)"
+  },
+  {
+   "id": "horse",
+   "file": "props/horse.svg",
+   "group": "travel",
+   "tags": [
+    "horse",
+    "ride",
+    "battle",
+    "journey"
+   ],
+   "description": "Horse with a mane (colour 2)"
+  },
+  {
+   "id": "sheep",
+   "file": "props/sheep.svg",
+   "group": "farm",
+   "tags": [
+    "sheep",
+    "lamb",
+    "eid",
+    "qurbani",
+    "shepherd"
+   ],
+   "description": "Woolly sheep (face in colour 2)"
+  },
+  {
+   "id": "cow",
+   "file": "props/cow.svg",
+   "group": "farm",
+   "tags": [
+    "cow",
+    "farm",
+    "milk",
+    "qurbani"
+   ],
+   "description": "Cow with a patch (colour 2)"
+  },
+  {
+   "id": "dog",
+   "file": "props/dog.svg",
+   "group": "home",
+   "tags": [
+    "dog",
+    "cave",
+    "kahf",
+    "loyal"
+   ],
+   "description": "Dog standing"
+  },
+  {
+   "id": "cat",
+   "file": "props/cat.svg",
+   "group": "home",
+   "tags": [
+    "cat",
+    "kitten",
+    "abu hurairah",
+    "pet"
+   ],
+   "description": "Cat sitting (eyes in colour 2)"
+  },
+  {
+   "id": "bird",
+   "file": "props/bird.svg",
+   "group": "sky",
+   "tags": [
+    "bird",
+    "sparrow",
+    "small bird"
+   ],
+   "description": "Small bird standing"
+  },
+  {
+   "id": "dove",
+   "file": "props/dove.svg",
+   "group": "sky",
+   "tags": [
+    "dove",
+    "pigeon",
+    "peace",
+    "flying",
+    "cave"
+   ],
+   "description": "Dove flying"
+  },
+  {
+   "id": "hoopoe",
+   "file": "props/hoopoe.svg",
+   "group": "sky",
+   "tags": [
+    "hoopoe",
+    "hudhud",
+    "sulaiman",
+    "bird",
+    "crest"
+   ],
+   "description": "Hoopoe with its crest (colour 2)"
+  },
+  {
+   "id": "ant",
+   "file": "props/ant.svg",
+   "group": "small",
+   "tags": [
+    "ant",
+    "naml",
+    "sulaiman",
+    "tiny",
+    "hard work"
+   ],
+   "description": "Ant"
+  },
+  {
+   "id": "spider-web",
+   "file": "props/spider-web.svg",
+   "group": "small",
+   "tags": [
+    "spider",
+    "web",
+    "cave",
+    "thawr",
+    "hijrah"
+   ],
+   "description": "Spider on its web (spider in colour 2)"
+  },
+  {
+   "id": "fish",
+   "file": "props/fish.svg",
+   "group": "sea",
+   "tags": [
+    "fish",
+    "sea",
+    "yunus",
+    "river"
+   ],
+   "description": "Fish"
+  },
+  {
+   "id": "whale",
+   "file": "props/whale.svg",
+   "group": "sea",
+   "tags": [
+    "whale",
+    "yunus",
+    "sea",
+    "ocean"
+   ],
+   "description": "Whale with a spout (belly in colour 2)"
+  },
+  {
+   "id": "elephant",
+   "file": "props/elephant.svg",
+   "group": "travel",
+   "tags": [
+    "elephant",
+    "fil",
+    "abraha",
+    "year of the elephant"
+   ],
+   "description": "Elephant (ear in colour 2)"
+  }
+ ]
+}

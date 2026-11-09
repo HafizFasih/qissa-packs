@@ -1,0 +1,107 @@
+{
+ "format": 1,
+ "id": "hajj-umrah",
+ "name": "Hajj & Umrah",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "category": "faith",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "description": "A tent of Mina, a bottle of zamzam, pebbles for the jamarat, a suitcase, Jabal ar-Rahmah at Arafat, a sun umbrella and a qibla compass. Lines take the element colour; fills take colour 2.",
+ "colors": {
+  "line": "#ffffff",
+  "accent": "#ff00ff",
+  "default_line": "#f4efe6",
+  "default_accent": "#f5b041"
+ },
+ "props": [
+  {
+   "id": "tent",
+   "file": "props/tent.svg",
+   "group": "mina",
+   "tags": [
+    "tent",
+    "mina",
+    "camp",
+    "hajj"
+   ],
+   "description": "Tent of Mina"
+  },
+  {
+   "id": "zamzam",
+   "file": "props/zamzam.svg",
+   "group": "water",
+   "tags": [
+    "zamzam",
+    "water",
+    "bottle",
+    "hajj",
+    "umrah"
+   ],
+   "description": "Bottle of zamzam water"
+  },
+  {
+   "id": "pebbles",
+   "file": "props/pebbles.svg",
+   "group": "jamarat",
+   "tags": [
+    "pebbles",
+    "stones",
+    "jamarat",
+    "hajj"
+   ],
+   "description": "Pebbles for the jamarat"
+  },
+  {
+   "id": "suitcase",
+   "file": "props/suitcase.svg",
+   "group": "travel",
+   "tags": [
+    "suitcase",
+    "luggage",
+    "travel",
+    "journey",
+    "trip"
+   ],
+   "description": "Suitcase on wheels"
+  },
+  {
+   "id": "jabal-rahmah",
+   "file": "props/jabal-rahmah.svg",
+   "group": "arafat",
+   "tags": [
+    "arafat",
+    "jabal ar-rahmah",
+    "mountain",
+    "hajj",
+    "day of arafah"
+   ],
+   "description": "Jabal ar-Rahmah with its pillar (Arafat)"
+  },
+  {
+   "id": "umbrella",
+   "file": "props/umbrella.svg",
+   "group": "travel",
+   "tags": [
+    "umbrella",
+    "sun",
+    "shade",
+    "hajj",
+    "heat"
+   ],
+   "description": "Sun umbrella"
+  },
+  {
+   "id": "compass-qibla",
+   "file": "props/compass-qibla.svg",
+   "group": "prayer",
+   "tags": [
+    "qibla",
+    "compass",
+    "direction",
+    "kaaba",
+    "prayer"
+   ],
+   "description": "Qibla compass"
+  }
+ ]
+}
