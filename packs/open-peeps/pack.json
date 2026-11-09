@@ -1,0 +1,194 @@
+{
+ "format": 1,
+ "id": "open-peeps",
+ "name": "Open Peeps (curated)",
+ "version": "1.0.0",
+ "author": "Pablo Stanley (openpeeps.com)",
+ "description": "Hand-drawn men standing, walking and sitting (sketch style, drawn faces). Curated: modest figures only.",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "category": "people",
+ "colors": {
+  "line": "#000000",
+  "accent": "#ffffff",
+  "default_line": "#111111",
+  "default_accent": "#ffffff"
+ },
+ "props": [
+  {
+   "id": "man-sitting-bald",
+   "file": "props/man-sitting-bald.svg",
+   "group": "sitting",
+   "tags": [
+    "person",
+    "man",
+    "sitting"
+   ],
+   "description": "Bald man sitting on a seat (place a bench or chair under him), one knee up"
+  },
+  {
+   "id": "man-sitting-cross-legged",
+   "file": "props/man-sitting-cross-legged.svg",
+   "group": "sitting",
+   "tags": [
+    "person",
+    "man",
+    "sitting"
+   ],
+   "description": "Man sitting on the floor, legs crossed, leaning on one hand"
+  },
+  {
+   "id": "man-sitting-hugging-knees",
+   "file": "props/man-sitting-hugging-knees.svg",
+   "group": "sitting",
+   "tags": [
+    "person",
+    "man",
+    "sitting"
+   ],
+   "description": "Man sitting, hugging his knees"
+  },
+  {
+   "id": "man-sitting-knee-up",
+   "file": "props/man-sitting-knee-up.svg",
+   "group": "sitting",
+   "tags": [
+    "person",
+    "man",
+    "sitting"
+   ],
+   "description": "Man sitting on a seat (place a bench or chair under him), one knee up, other leg stretched"
+  },
+  {
+   "id": "man-wheelchair",
+   "file": "props/man-wheelchair.svg",
+   "group": "sitting",
+   "tags": [
+    "person",
+    "man",
+    "sitting"
+   ],
+   "description": "Older man in a wheelchair, waving while he talks"
+  },
+  {
+   "id": "man-arms-crossed",
+   "file": "props/man-arms-crossed.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Man in a beanie, standing with arms crossed"
+  },
+  {
+   "id": "man-beard-dotted-sweater",
+   "file": "props/man-beard-dotted-sweater.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Bearded man in sunglasses and a dotted sweater, standing"
+  },
+  {
+   "id": "man-beard-standing",
+   "file": "props/man-beard-standing.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Bearded man in a dotted sweater, standing relaxed"
+  },
+  {
+   "id": "man-blazer",
+   "file": "props/man-blazer.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Man with glasses in a blazer, hand in pocket"
+  },
+  {
+   "id": "man-buttoned-shirt",
+   "file": "props/man-buttoned-shirt.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Man in a buttoned dark shirt, standing straight"
+  },
+  {
+   "id": "man-older-mustache",
+   "file": "props/man-older-mustache.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Older man with a mustache, standing, hands at his sides"
+  },
+  {
+   "id": "man-open-shirt-bald",
+   "file": "props/man-open-shirt-bald.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Bald man in an open shirt, standing"
+  },
+  {
+   "id": "man-standing-hat",
+   "file": "props/man-standing-hat.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Man in a hat with a mustache, standing, hands at his sides"
+  },
+  {
+   "id": "man-sunglasses",
+   "file": "props/man-sunglasses.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Man in sunglasses and an open shirt, standing"
+  },
+  {
+   "id": "man-walking-talking",
+   "file": "props/man-walking-talking.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Bearded man in a hat, walking and gesturing as he talks"
+  },
+  {
+   "id": "man-walking",
+   "file": "props/man-walking.svg",
+   "group": "standing",
+   "tags": [
+    "person",
+    "man",
+    "standing"
+   ],
+   "description": "Man with a mustache, walking"
+  }
+ ]
+}

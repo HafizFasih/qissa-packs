@@ -1,0 +1,18 @@
+{
+ "format": 1,
+ "id": "ramadan-nights",
+ "name": "Ramadan nights",
+ "version": "1.0.0",
+ "author": "Qissa Studio",
+ "description": "A hanging lantern, the crescent and star, a bowl of dates, a prayer mat and prayer beads. Lines take the element colour; glows and fills take colour 2.",
+ "license": "CC0 1.0 (see LICENSE.txt)",
+ "category": "faith",
+ "colors": { "line": "#ffffff", "accent": "#ff00ff", "default_line": "#f4efe6", "default_accent": "#f5b041" },
+ "props": [
+  { "id": "lantern", "file": "props/lantern.svg", "group": "ramadan", "tags": ["lantern", "fanoos", "ramadan", "light", "night"], "description": "Hanging Ramadan lantern with a glowing glass" },
+  { "id": "crescent", "file": "props/crescent.svg", "group": "ramadan", "tags": ["moon", "crescent", "star", "ramadan", "eid", "night"], "description": "Crescent moon with a small star" },
+  { "id": "dates-bowl", "file": "props/dates-bowl.svg", "group": "iftar", "tags": ["dates", "bowl", "iftar", "food", "ramadan"], "description": "Bowl of dates for iftar" },
+  { "id": "prayer-mat", "file": "props/prayer-mat.svg", "group": "prayer", "tags": ["prayer mat", "musalla", "salah", "rug"], "description": "Prayer mat with a mihrab arch, standing upright (front view)" },
+  { "id": "tasbih", "file": "props/tasbih.svg", "group": "prayer", "tags": ["tasbih", "prayer beads", "dhikr", "misbaha"], "description": "Loop of prayer beads with a tassel" }
+ ]
+}

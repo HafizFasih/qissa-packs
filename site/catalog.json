@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "updated": "2026-11-09T09:28:43.837Z",
+  "packs": [
+    {
+      "id": "open-peeps",
+      "name": "Open Peeps (curated)",
+      "version": "1.0.0",
+      "category": "people",
+      "description": "Hand-drawn men standing, walking and sitting (sketch style, drawn faces). Curated: modest figures only.",
+      "author": "Pablo Stanley (openpeeps.com)",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 16,
+        "backgrounds": 0,
+        "poses": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 357127,
+      "sha256": "0afb8acc7868c1119bb0b0a7e5ff061f1f5fc5fe13adb8952f16bdd0c848d74a",
+      "url": "http://127.0.0.1:5181/dist/open-peeps-1.0.0.zip",
+      "preview": "previews/open-peeps.svg",
+      "sample": [
+        "man-sitting-bald",
+        "man-sitting-cross-legged",
+        "man-sitting-hugging-knees",
+        "man-sitting-knee-up",
+        "man-wheelchair",
+        "man-arms-crossed"
+      ]
+    },
+    {
+      "id": "ramadan-nights",
+      "name": "Ramadan nights",
+      "version": "1.0.0",
+      "category": "faith",
+      "description": "A hanging lantern, the crescent and star, a bowl of dates, a prayer mat and prayer beads. Lines take the element colour; glows and fills take colour 2.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 5,
+        "backgrounds": 0,
+        "poses": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 3329,
+      "sha256": "3afb087a6127ec7bc1298e563db3d049d4617506d51a4f07bc325680c9a141a5",
+      "url": "http://127.0.0.1:5181/dist/ramadan-nights-1.0.0.zip",
+      "preview": "previews/ramadan-nights.svg",
+      "sample": [
+        "lantern",
+        "crescent",
+        "dates-bowl",
+        "prayer-mat",
+        "tasbih"
+      ]
+    },
+    {
+      "id": "tabler-icons",
+      "name": "Tabler Icons",
+      "version": "3.50.0",
+      "category": "objects",
+      "description": "Line icons from Tabler Icons 3.50.0, grouped by theme. Colour follows the element's colour.",
+      "author": "Paweł Kuna and Tabler contributors (tabler.io/icons)",
+      "license": "MIT (see LICENSE.txt)",
+      "counts": {
+        "props": 3505,
+        "backgrounds": 0,
+        "poses": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1516679,
+      "sha256": "bf6b7bf6071738ec9cc4aca8bdd00ba62feadb73bbc88ad61366df97265dd418",
+      "url": "http://127.0.0.1:5181/dist/tabler-icons-3.50.0.zip",
+      "preview": "previews/tabler-icons.svg",
+      "sample": [
+        "access-point",
+        "accessible",
+        "acorn",
+        "acrobatic",
+        "activity-heartbeat",
+        "activity"
+      ]
+    }
+  ]
+}

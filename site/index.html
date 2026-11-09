@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Qissa Studio Packs</title>
+    <meta name="description" content="Free packs of people, places, animals, faith items, sounds and more for Qissa Studio. Curated, CC0 / MIT licensed." />
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="glow" aria-hidden="true"></div>
+    <header class="top">
+      <a class="brand" href="./">
+        <img src="logo.png" alt="" width="40" height="40" />
+        <span><b>Qissa</b> Studio <em>Packs</em></span>
+      </a>
+      <a class="top-link" href="#how">How to install</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Packs for your story reels</h1>
+        <p>People, places, animals, faith items, sounds and more. Every pack is checked by hand, free to use, and installs in one click from Qissa Studio.</p>
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          <input id="q" type="search" placeholder="Search packs, e.g. lantern, camel, rain" autocomplete="off" />
+        </label>
+      </section>
+
+      <nav class="chips" id="chips" aria-label="Categories"></nav>
+
+      <section id="grid" class="grid" aria-live="polite">
+        <p class="note">Loading packs…</p>
+      </section>
+
+      <section class="how" id="how">
+        <h2>How to install</h2>
+        <div class="how-grid">
+          <div class="how-card">
+            <span class="num">1</span>
+            <b>In Qissa Studio (easiest)</b>
+            <p>Open Qissa Studio → <i>Marketplace</i> on Home → pick a pack → <i>Install</i>. Its items appear in the editor at once.</p>
+          </div>
+          <div class="how-card">
+            <span class="num">2</span>
+            <b>From this site</b>
+            <p><i>Open in app</i> on a pack opens the app on that pack. Or <i>Download</i> the zip, then in the editor: Reel settings → Packs → <i>Install pack (.zip)</i>.</p>
+          </div>
+          <div class="how-card">
+            <span class="num">3</span>
+            <b>Use it</b>
+            <p>Items are named <code>pack-id/item</code>, for example <code>ramadan-nights/lantern</code>. AI assistants connected to Qissa Studio see them too.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Every pack is CC0 or MIT style: free for any use. Licences are inside each zip.</span>
+      <span id="updated"></span>
+    </footer>
+
+    <template id="card">
+      <article class="card">
+        <div class="shot"><img alt="" loading="lazy" /></div>
+        <div class="body">
+          <div class="row">
+            <span class="cat"></span>
+            <span class="ver"></span>
+          </div>
+          <h3></h3>
+          <p class="desc"></p>
+          <p class="meta"></p>
+          <div class="actions">
+            <a class="btn primary open">Open in app</a>
+            <a class="btn dl">Download</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
