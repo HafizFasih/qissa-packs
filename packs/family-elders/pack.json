@@ -1,0 +1,19 @@
+{
+  "id": "family-elders",
+  "name": "Family & elders",
+  "version": "1.0.0",
+  "category": "people",
+  "author": "Qissa Studio",
+  "license": "CC0-1.0",
+  "description": "A whole family, ready to act: grandfather, grandmother, father, mother, a boy, a girl, an imam and a student. Every pose, walk and move works.",
+  "people": [
+    { "id": "grandfather", "base": "man", "look": "round", "build": "elder", "extras": ["beard", "kufi", "thobe", "cane", "glasses"], "colors": { "clothes": "#ece6d8", "skin": "#c99a6b", "hair": "#e4e4e4", "accent": "#ffffff" }, "tags": ["grandpa", "old man", "elder", "nana", "dada"], "description": "Grandfather: white thobe, kufi, grey beard, cane" },
+    { "id": "grandmother", "base": "woman", "look": "round", "build": "elder", "extras": ["cane", "glasses"], "colors": { "clothes": "#6f5d7e", "skin": "#d6a985" }, "tags": ["grandma", "old woman", "elder", "nani", "dadi"], "description": "Grandmother: plum dress and hood, glasses, cane" },
+    { "id": "father", "base": "man", "look": "round", "extras": ["beard", "kufi", "thobe"], "colors": { "clothes": "#5d7f9e", "skin": "#b8835a", "hair": "#2b2119", "accent": "#f3efe4" }, "tags": ["dad", "abu", "parent", "man"], "description": "Father: blue thobe, kufi, dark beard" },
+    { "id": "mother", "base": "woman", "look": "round", "colors": { "clothes": "#4f6b5a", "skin": "#e0b48c" }, "tags": ["mum", "mom", "ammi", "parent", "woman"], "description": "Mother: green dress and hood" },
+    { "id": "boy", "base": "child", "look": "round", "extras": ["kufi", "thobe"], "colors": { "clothes": "#f3f0e8", "skin": "#c08d62", "accent": "#7fa7c9" }, "tags": ["son", "kid", "child", "boy"], "description": "Boy: white thobe, blue kufi" },
+    { "id": "girl", "base": "girl", "look": "round", "colors": { "clothes": "#c4706a", "skin": "#e3b892" }, "tags": ["daughter", "kid", "child", "girl"], "description": "Girl: rose dress and hood" },
+    { "id": "imam", "base": "man", "look": "round", "extras": ["beard", "turban", "thobe"], "colors": { "clothes": "#f4f1ea", "skin": "#a8774f", "hair": "#3a2c22", "accent": "#e2d6b8" }, "tags": ["imam", "sheikh", "teacher", "scholar"], "description": "Imam: white thobe, turban, beard" },
+    { "id": "student", "base": "man", "look": "round", "extras": ["glasses", "bag"], "colors": { "clothes": "#46628c", "skin": "#d3a37a", "accent": "#8a6040" }, "tags": ["student", "young man", "university", "school"], "description": "Student: glasses and a shoulder bag" }
+  ]
+}

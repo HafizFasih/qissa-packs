@@ -25,6 +25,7 @@ const kb = (n) => (n > 1024 * 1024 ? `${(n / 1024 / 1024).toFixed(1)} MB` : `${M
 function what(c) {
   const parts = [];
   const add = (n, one, many) => n && parts.push(`${n} ${n === 1 ? one : many}`);
+  add(c.people ?? 0, 'person', 'people');
   add(c.props, 'item', 'items');
   add(c.backgrounds, 'background', 'backgrounds');
   add(c.poses, 'pose', 'poses');

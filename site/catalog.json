@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-09T09:59:12.665Z",
+  "updated": "2026-11-09T10:12:34.929Z",
   "packs": [
     {
       "id": "everyday-moves",
@@ -15,6 +15,7 @@
         "backgrounds": 0,
         "poses": 5,
         "animations": 6,
+        "people": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
@@ -33,6 +34,37 @@
       ]
     },
     {
+      "id": "family-elders",
+      "name": "Family & elders",
+      "version": "1.0.0",
+      "category": "people",
+      "description": "A whole family, ready to act: grandfather, grandmother, father, mother, a boy, a girl, an imam and a student. Every pose, walk and move works.",
+      "author": "Qissa Studio",
+      "license": "CC0-1.0",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 8,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1261,
+      "sha256": "2fc2ae6df99c3d285547cba6571013eb500efb3cbef6c26770f3ae9c0dbe50a0",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/family-elders-v1.0.0/family-elders-1.0.0.zip",
+      "preview": "previews/family-elders.png",
+      "sample": [
+        "grandfather",
+        "grandmother",
+        "father",
+        "mother",
+        "boy",
+        "girl"
+      ]
+    },
+    {
       "id": "open-peeps",
       "name": "Open Peeps (curated)",
       "version": "1.0.0",
@@ -45,6 +77,7 @@
         "backgrounds": 0,
         "poses": 0,
         "animations": 0,
+        "people": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
@@ -75,6 +108,7 @@
         "backgrounds": 0,
         "poses": 0,
         "animations": 0,
+        "people": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
@@ -104,6 +138,7 @@
         "backgrounds": 0,
         "poses": 0,
         "animations": 0,
+        "people": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
