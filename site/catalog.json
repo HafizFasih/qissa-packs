@@ -1,37 +1,170 @@
 {
   "format": 1,
-  "updated": "2026-11-09T10:12:34.929Z",
+  "updated": "2026-11-09T15:35:11.017Z",
   "packs": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "version": "1.0.0",
+      "category": "animals",
+      "description": "Animals from the stories: camel, horse, sheep, cow, dog, cat, birds, the hoopoe, the ant, the spider's web, fish, the whale and the elephant. Lines take the element colour; fills take colour 2.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 14,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 7610,
+      "sha256": "85813e0c0994a2d898e336c8613d66e9ed2c1f7ac5c4ac770fa73c0f8ca2b174",
+      "content": "390abe72afe3b05283ef360d5ccfe102ad50e6333a74049aa6163d271efca42f",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/animals-v1.0.0/animals-1.0.0.zip",
+      "preview": "previews/animals.svg",
+      "sample": [
+        "camel",
+        "horse",
+        "sheep",
+        "cow",
+        "dog",
+        "cat"
+      ]
+    },
+    {
+      "id": "arabic-fonts",
+      "name": "Arabic fonts",
+      "version": "1.0.0",
+      "category": "fonts",
+      "description": "Arabic and English display fonts: Amiri (classic naskh), Reem Kufi (kufi), Aref Ruqaa (ruq'ah calligraphy), Lalezar (bold display) and Scheherazade New (clear naskh). Free to use in any reel, including for money.",
+      "author": "Font authors (see licenses/); packed by Qissa Studio",
+      "license": "SIL Open Font License 1.1 (see licenses/)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 8,
+        "presets": 0
+      },
+      "size": 1118245,
+      "sha256": "83a5169bdb44756deaec45cdd3da360580a952544b8676b51bfca02b91d3d875",
+      "content": "bd68b8dbc116853d571c4152de7ac1df7ed011e93ea22f740eeb8780c53aa73d",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/arabic-fonts-v1.0.0/arabic-fonts-1.0.0.zip",
+      "preview": "previews/arabic-fonts.png",
+      "sample": []
+    },
+    {
+      "id": "daily-moves",
+      "name": "Daily moves",
+      "version": "1.0.0",
+      "category": "animations",
+      "description": "Everyday work for any figure: stirring a pot, sweeping, digging, writing, washing hands, planting a seed and reciting the Quran.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 13,
+        "animations": 7,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1584,
+      "sha256": "92264627dbbb8376724ab0c9c794be6c7b5ef9639c696518d354260ba388915c",
+      "content": "505f2670df3e67fe84b9927864b89b5e8bf44c2a647ac36bfb742e89602c3be3",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/daily-moves-v1.0.0/daily-moves-1.0.0.zip",
+      "preview": "previews/daily-moves.png",
+      "sample": [
+        "stirring",
+        "sweeping",
+        "digging",
+        "writing",
+        "washing-hands",
+        "planting"
+      ]
+    },
     {
       "id": "everyday-moves",
       "name": "Everyday moves",
       "version": "1.0.0",
       "category": "animations",
-      "description": "Moves any figure can play on its own: clapping, eating, saying ameen, jumping for joy, deep thought and quiet tears.",
+      "description": "Moves any figure can play on its own: clapping, eating (standing or seated on the floor), saying ameen, jumping for joy, deep thought and quiet tears.",
       "author": "Qissa Studio",
       "license": "CC0-1.0",
       "counts": {
         "props": 0,
         "backgrounds": 0,
-        "poses": 5,
-        "animations": 6,
+        "poses": 7,
+        "animations": 7,
         "people": 0,
+        "stories": 0,
+        "styles": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
       },
-      "size": 1279,
-      "sha256": "abaf9d9a87908896286a6a070bf79545e8b02bebc27627cf4ff5c919fb911aa9",
+      "size": 1435,
+      "sha256": "1d265893b4fd32e33c6974699e347a8ce9408ffbd17f9731c5d2793d0349eb0d",
+      "content": "e3b1559721b01fec5b343b816637c592b73dc1dad27786cd3327d56b3c90fc2b",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/everyday-moves-v1.0.0/everyday-moves-1.0.0.zip",
       "preview": "previews/everyday-moves.png",
       "sample": [
         "clap",
         "eating",
+        "eating-seated",
         "ameen",
         "jump-for-joy",
-        "deep-thought",
-        "quiet-tears"
+        "deep-thought"
       ]
+    },
+    {
+      "id": "everyday-scenes",
+      "name": "Everyday scenes",
+      "version": "1.0.0",
+      "category": "scenes",
+      "description": "Eight ready scenes to drop into a reel: a family iftar, a lesson in the masjid, walking to Fajr, Eid morning, kindness to a cat, a desert journey, the days of Mina and visiting grandparents.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 8
+      },
+      "size": 2238,
+      "sha256": "cec6de78f2fcdb0c4c9d128a0db72350dc802ed80861c9e3db0a2b082cf0ed8b",
+      "content": "5bc8475bb53964082491ba83a5ab3c670d2a4001f97f7076f588734d4fb90afc",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/everyday-scenes-v1.0.0/everyday-scenes-1.0.0.zip",
+      "preview": "previews/everyday-scenes.png",
+      "requires": [
+        "family-elders",
+        "everyday-moves",
+        "places",
+        "animals",
+        "ramadan-eid",
+        "hajj-umrah"
+      ],
+      "sample": []
     },
     {
       "id": "family-elders",
@@ -47,12 +180,15 @@
         "poses": 0,
         "animations": 0,
         "people": 8,
+        "stories": 0,
+        "styles": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
       },
       "size": 1261,
       "sha256": "2fc2ae6df99c3d285547cba6571013eb500efb3cbef6c26770f3ae9c0dbe50a0",
+      "content": "dc5609e6a1ad712cc395bd85befd139d548d3e3cd4f433737a81b79dad2ccd8c",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/family-elders-v1.0.0/family-elders-1.0.0.zip",
       "preview": "previews/family-elders.png",
       "sample": [
@@ -62,6 +198,74 @@
         "mother",
         "boy",
         "girl"
+      ]
+    },
+    {
+      "id": "hajj-umrah",
+      "name": "Hajj & Umrah",
+      "version": "1.0.0",
+      "category": "faith",
+      "description": "A tent of Mina, a bottle of zamzam, pebbles for the jamarat, a suitcase, Jabal ar-Rahmah at Arafat, a sun umbrella and a qibla compass. Lines take the element colour; fills take colour 2.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 7,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 3626,
+      "sha256": "76bb3a6a15ea903f9d44fd0b27fe2b4390528557f6e165bcc02f6f916f12e735",
+      "content": "c3d3a7459f24df2f28dea9c1e14ca09d426d7c894de64311c3d5e95fbe57ec1a",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/hajj-umrah-v1.0.0/hajj-umrah-1.0.0.zip",
+      "preview": "previews/hajj-umrah.svg",
+      "sample": [
+        "tent",
+        "zamzam",
+        "pebbles",
+        "suitcase",
+        "jabal-rahmah",
+        "umbrella"
+      ]
+    },
+    {
+      "id": "nature-home-sounds",
+      "name": "Nature & home sounds",
+      "version": "1.0.0",
+      "category": "sounds",
+      "description": "Heavy rain, birds, a stream, crickets, a sizzling pan and a boiling kettle for the background, plus walking footsteps, a door knock, applause, coins, horse hooves, a phone and typing. Made from scratch for Qissa Studio; no music.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 13,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1560177,
+      "sha256": "9c3e63272702f14460c90e9e7e1933d9e69e355193bb1afde71ba805c586f598",
+      "content": "112bd0ecf49b565cf88192c773ec5f86059e8e7a10b1968445d5927387408f8e",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/nature-home-sounds-v1.0.0/nature-home-sounds-1.0.0.zip",
+      "preview": "previews/nature-home-sounds.svg",
+      "sample": [
+        "applause",
+        "birds",
+        "coins",
+        "crickets",
+        "door-knock",
+        "footsteps"
       ]
     },
     {
@@ -78,12 +282,15 @@
         "poses": 0,
         "animations": 0,
         "people": 0,
+        "stories": 0,
+        "styles": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
       },
       "size": 357127,
       "sha256": "b00add991f7dc12eae9df6b2c2b582de18630718bcbbff050be375b08b6c7153",
+      "content": "0f98bd629b9def72d73874e473a06d8ecba14c9b5545067eb1dea804ad41712b",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/open-peeps-v1.0.0/open-peeps-1.0.0.zip",
       "preview": "previews/open-peeps.svg",
       "sample": [
@@ -93,6 +300,108 @@
         "man-sitting-knee-up",
         "man-wheelchair",
         "man-arms-crossed"
+      ]
+    },
+    {
+      "id": "people-at-work",
+      "name": "People at work",
+      "version": "1.0.0",
+      "category": "people",
+      "description": "Working people, ready to act: a farmer, a doctor, a nurse, a builder, a shopkeeper, a baker, a teacher, a fisherman and a cook. Every pose, walk and move works; try them with the Daily moves pack.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 9,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1444,
+      "sha256": "a8094f3895c3b213f116ccb5c4341b42177bfb3fc0bb4d27e622baabd789b328",
+      "content": "a1fac8520bb75c8e78ccc20b72c31913e0c519f05b406503722d458e614922bc",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/people-at-work-v1.0.0/people-at-work-1.0.0.zip",
+      "preview": "previews/people-at-work.png",
+      "sample": [
+        "farmer",
+        "doctor",
+        "nurse",
+        "builder",
+        "shopkeeper",
+        "baker"
+      ]
+    },
+    {
+      "id": "places",
+      "name": "Places",
+      "version": "1.0.0",
+      "category": "places",
+      "description": "Full-screen places: inside a masjid, a village, desert dunes with a caravan, a spring meadow, an autumn park, a snowy village, a mountain cave at night and the seashore. The ground is at about y 1360-1400; the colours are the sky (they set the text colour).",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 8,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 12258,
+      "sha256": "ce9e80310b949ab4938712bf8a9f8edd89f6d197c3d0ad871f84faf1fa424d16",
+      "content": "5fa230d5bddb0fcd6992486c447deece435492dc2376b759886ab03aed367b0b",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/places-v1.0.0/places-1.0.0.zip",
+      "preview": "previews/places.png",
+      "sample": [
+        "masjid-inside",
+        "village-day",
+        "desert-caravan",
+        "spring-meadow",
+        "autumn-park",
+        "winter-village"
+      ]
+    },
+    {
+      "id": "ramadan-eid",
+      "name": "Ramadan & Eid",
+      "version": "1.0.0",
+      "category": "faith",
+      "description": "Iftar spread, a glass of water, Eid gift box and sweets, a charity box, a lantern garland, a Quran stand, a moon-sighting telescope and the suhoor drum. Lines take the element colour; fills take colour 2.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 9,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 4692,
+      "sha256": "2ab862eaca6a92b2ffc4efa028b6b35ac7d1fd56243e4d06ecce98d7a47a717e",
+      "content": "4635dd3b114e59998a600c823684ac90b983f4462a073b4c4d69647e0e84a126",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/ramadan-eid-v1.0.0/ramadan-eid-1.0.0.zip",
+      "preview": "previews/ramadan-eid.svg",
+      "sample": [
+        "iftar-spread",
+        "water-glass",
+        "gift-box",
+        "sweets-plate",
+        "charity-box",
+        "lantern-garland"
       ]
     },
     {
@@ -109,12 +418,15 @@
         "poses": 0,
         "animations": 0,
         "people": 0,
+        "stories": 0,
+        "styles": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
       },
       "size": 3388,
       "sha256": "50ec3d6f4487c143ea6bb9e8d02af2fc08ec96c76c2148393d68df7ce7fbc019",
+      "content": "9418a3d3042f8a577908efffde2b2e4112a40d19f5a02c222bdcbf11d091621f",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/ramadan-essentials-v1.0.0/ramadan-essentials-1.0.0.zip",
       "preview": "previews/ramadan-essentials.svg",
       "sample": [
@@ -123,6 +435,79 @@
         "dates-bowl",
         "prayer-mat",
         "tasbih"
+      ]
+    },
+    {
+      "id": "reel-styles",
+      "name": "Reel styles",
+      "version": "1.0.0",
+      "category": "styles",
+      "description": "Five looks for a whole reel in one click: classic naskh, modern kufi, ruq'ah calligraphy, bold poster and quiet reminder. Each sets the text style, the font and colours of every text, and the watermark colour. Uses the Arabic fonts pack.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 0,
+        "styles": 5,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 1317,
+      "sha256": "82a5b81a33973a65d301dcc977fff7d469eec47b548debada862569357883fbf",
+      "content": "4da9f35c3365bd6e4998fba1ee04935a5e7b65873d9eb1ac5e0bc13b62910601",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/reel-styles-v1.0.0/reel-styles-1.0.0.zip",
+      "preview": "previews/reel-styles.png",
+      "requires": [
+        "arabic-fonts"
+      ],
+      "sample": []
+    },
+    {
+      "id": "story-templates",
+      "name": "Story templates",
+      "version": "1.0.0",
+      "category": "scenes",
+      "description": "Five whole reels to start from, with {{blanks}} for your words: a Ramadan journey, a story of patience, one kind act, the honest trader and a day of gratitude. In the editor: Samples. For the AI: get_recipe.",
+      "author": "Qissa Studio",
+      "license": "CC0 1.0 (see LICENSE.txt)",
+      "counts": {
+        "props": 0,
+        "backgrounds": 0,
+        "poses": 0,
+        "animations": 0,
+        "people": 0,
+        "stories": 5,
+        "styles": 0,
+        "sounds": 0,
+        "fonts": 0,
+        "presets": 0
+      },
+      "size": 3426,
+      "sha256": "0cb3559ff8eb390e53c76e50007144132bc2991ea7b9cc23e15db06c230978fd",
+      "content": "c01e0dd901434daad905de5ee5499ff6db3cb8f717ab417d69e9394c189522bc",
+      "url": "https://github.com/HafizFasih/qissa-packs/releases/download/story-templates-v1.0.0/story-templates-1.0.0.zip",
+      "preview": "previews/story-templates.png",
+      "requires": [
+        "family-elders",
+        "people-at-work",
+        "everyday-moves",
+        "daily-moves",
+        "places",
+        "animals",
+        "ramadan-eid",
+        "nature-home-sounds"
+      ],
+      "sample": [
+        "ramadan-journey",
+        "patience",
+        "one-kind-act",
+        "honest-trader",
+        "gratitude-day"
       ]
     },
     {
@@ -139,12 +524,15 @@
         "poses": 0,
         "animations": 0,
         "people": 0,
+        "stories": 0,
+        "styles": 0,
         "sounds": 0,
         "fonts": 0,
         "presets": 0
       },
       "size": 1516679,
       "sha256": "749288b3f2b5bc5ff053ca11ca0c3a0cb5282a9812dfedac8fb161d955ddb6f5",
+      "content": "d538b36c8aba5d0809bb0f5dee101c5030005dedf463f2e6713a79f7aab481a9",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/tabler-icons-v3.50.0/tabler-icons-3.50.0.zip",
       "preview": "previews/tabler-icons.svg",
       "sample": [
