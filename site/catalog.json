@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-11-14T09:29:58.068Z",
+  "updated": "2026-11-14T09:32:33.628Z",
   "packs": [
     {
       "id": "animals",
@@ -289,7 +289,7 @@
         "presets": 0
       },
       "size": 357127,
-      "sha256": "b00add991f7dc12eae9df6b2c2b582de18630718bcbbff050be375b08b6c7153",
+      "sha256": "59f806415f9b24040596770403de1efc7beb675df98e0a73d177a16a77c61cd0",
       "content": "0f98bd629b9def72d73874e473a06d8ecba14c9b5545067eb1dea804ad41712b",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/open-peeps-v1.0.0/open-peeps-1.0.0.zip",
       "preview": "previews/open-peeps.svg",
@@ -531,7 +531,7 @@
         "presets": 0
       },
       "size": 1516679,
-      "sha256": "749288b3f2b5bc5ff053ca11ca0c3a0cb5282a9812dfedac8fb161d955ddb6f5",
+      "sha256": "f7d4bc5e54bf793b5298fb24e8c7ef79e1f20b944aa62c69101e52d562bc1074",
       "content": "d538b36c8aba5d0809bb0f5dee101c5030005dedf463f2e6713a79f7aab481a9",
       "url": "https://github.com/HafizFasih/qissa-packs/releases/download/tabler-icons-v3.50.0/tabler-icons-3.50.0.zip",
       "preview": "previews/tabler-icons.svg",
